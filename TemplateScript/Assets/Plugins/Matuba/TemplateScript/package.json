@@ -2,22 +2,7 @@
     "name": "com.matuba.template-script",
     "displayName": "Template Script", 
     "version": "1.0.0",               
-    "unity": {
-        "folders": [
-            {
-                "source": "Editor",
-                "destination": "Assets/Plugins/Matuba"
-            },
-            {
-                "source": "Setting",
-                "destination": "Assets/Plugins/Matuba"
-            },
-            {
-                "source": "Templates",
-                "destination": "Assets/Plugins/Matuba"
-            }
-        ]
-    },
+    "unity": "2022.1",
     "description": "Template Script Create Tool",
     "author": {
         "name": "Matuba",

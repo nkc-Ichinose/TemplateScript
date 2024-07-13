@@ -11,6 +11,10 @@ namespace Matuba.Editor
         [SerializeField]
         private string _authorName;
 
-        public string AuthorName => _authorName;
+        public string AuthorName
+        {
+            get => _authorName;
+            set => _authorName = value;
+        }
     }
 }

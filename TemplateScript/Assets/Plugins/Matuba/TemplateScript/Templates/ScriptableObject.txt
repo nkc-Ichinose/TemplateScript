@@ -1,0 +1,10 @@
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+// クラスの役割
+// Created by Matuba on #DATE#
+[CreateAssetMenu(fileName = "", menuName = "ScriptableObject/")]
+internal sealed class #SCRIPTNAME# : ScriptableObject
+{
+}
+#ROOTNAMESPACEEND#

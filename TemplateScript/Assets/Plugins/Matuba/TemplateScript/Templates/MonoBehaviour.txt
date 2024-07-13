@@ -1,0 +1,18 @@
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+// クラスの役割
+// Created by #AUTHOR# on #DATE#
+internal sealed class #SCRIPTNAME# : MonoBehaviour
+{
+    private void Start()
+    {
+        #NOTRIM#
+    }
+
+    private void Update()
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

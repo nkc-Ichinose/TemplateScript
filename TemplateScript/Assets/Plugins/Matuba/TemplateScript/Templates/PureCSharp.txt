@@ -1,0 +1,7 @@
+#ROOTNAMESPACEBEGIN#
+// クラスの役割
+// Created by #AUTHOR# on #DATE#
+internal sealed class #SCRIPTNAME#
+{
+}
+#ROOTNAMESPACEEND#

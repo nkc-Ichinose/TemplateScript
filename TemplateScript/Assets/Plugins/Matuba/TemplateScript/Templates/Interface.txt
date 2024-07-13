@@ -1,0 +1,9 @@
+// インターフェイスの役割
+// Created by Matuba on #DATE#
+
+#ROOTNAMESPACEBEGIN#
+internal interface I#SCRIPTNAME#
+{
+    
+}
+#ROOTNAMESPACEEND#

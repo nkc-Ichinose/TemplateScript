@@ -5,7 +5,15 @@
     "unity": {
      "folders": [
       {
-        "source": "TemplateScript",
+        "source": "Editor",
+        "destination": "Assets/Plugins/Matuba"
+      },
+      {
+        "source": "Setting",
+        "destination": "Assets/Plugins/Matuba"
+      },
+      {
+        "source": "Templates",
         "destination": "Assets/Plugins/Matuba"
       },
     "description": "Template Script Create Tool",

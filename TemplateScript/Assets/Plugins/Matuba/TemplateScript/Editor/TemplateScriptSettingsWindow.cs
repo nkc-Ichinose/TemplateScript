@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Matuba.Editor
 {
-    // クラスの役割
+    // テンプレートスクリプトの設定用のウィンドウを作成するクラス
     // Created by Name on 2024/07/14
     internal sealed class TemplateScriptSettingsWindow : EditorWindow
     {
@@ -30,6 +30,7 @@ namespace Matuba.Editor
 
             authorName = EditorGUILayout.TextField("AuthorName", authorName);
 
+            // テキストの変更があった場合データを保存する
             if (EditorGUI.EndChangeCheck())
             {
                 _settings.AuthorName = authorName;
@@ -37,6 +38,7 @@ namespace Matuba.Editor
             }
         }
 
+        // 設定ファイルを読み込む
         private TemplateScriptSettings LoadSettings()
         {
             return (TemplateScriptSettings)AssetDatabase.FindAssets("t:TemplateScriptSettings")

@@ -11,7 +11,7 @@ namespace Matuba.Editor
         [SerializeField]
         private TemplateScriptSettings _settings;
 
-        [MenuItem("Matuba/TemplateScriptSettings")]
+        [MenuItem("Tools/Matuba/TemplateScriptSettings")]
         private static void ShowWindow()
         {
             var window = GetWindow<TemplateScriptSettingsWindow>();

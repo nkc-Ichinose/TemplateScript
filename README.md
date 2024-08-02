@@ -1,7 +1,7 @@
 # TemplateScript
 テンプレートスクリプトを作成するツールです。
 
-## UPM Package  
+## UPM  
 `https://github.com/nkc-Ichinose/TemplateScript.git?path=TemplateScript/Assets/Plugins/Matuba/TemplateScript`
 
 ## 使い方
